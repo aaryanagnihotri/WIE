@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/wie}
+      auto-index-creation: true
+jwt:
+  secret: ${JWT_SECRET}
+  refresh-secret: ${JWT_REFRESH_SECRET}
+  access-ms: 900000
+  refresh-days: 7
+app:
+  cors-origin: ${CORS_ORIGIN:http://localhost:5173}
+  cookie-secure: ${COOKIE_SECURE:false}
+  seed-demo: ${SEED_DEMO:false}
