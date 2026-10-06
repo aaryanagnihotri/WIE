@@ -29,3 +29,4 @@ Separate profile/skills/jobs/courses collections, skill adjacency graph, collaps
 
 ## Skill assessment
 Students: /assessment. 5 short-answer questions, 6s each (server clock decides, 1s latency grace). Verified score overwrites the skill level and feeds readiness. Dashboards auto-refresh every 15s.
+# WIE
